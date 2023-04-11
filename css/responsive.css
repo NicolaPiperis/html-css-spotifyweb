@@ -6,4 +6,34 @@
     main{
         width: calc(100% - 100px);
     }
+
+    /* SIDE */
+
+    #logo-small{
+        display: inline-block;
+        width: 90%;
+        padding: 30px 30px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .d-none{
+        display: none;
+    }
+
+    #highlighted-home{
+        border: none;
+        padding: 10px 0 10px 30px;
+    }
+
+    #nav-footer #download{
+        border: none;
+        padding-left: 8px;
+    }
+
+    #main-nav{
+        flex-grow: 1;
+    }
 }

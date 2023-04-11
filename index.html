@@ -19,8 +19,8 @@
     <!-- css connection -->
     
     <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 <body>
@@ -39,6 +39,7 @@
                     <div class="col-12">
                         <a href="#">
                             <img id="logo" src="img/logo.svg" alt="logo and text">
+                            <img id="logo-small" src="img/logo-small.svg" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -52,7 +53,7 @@
                             <a href="#">
 
                                 <i class="fa-solid fa-house nav-icons" style="color: #f1f1f1;"></i>
-                                Home
+                                <span class="d-none">Home</span>
 
                             </a>
                             
@@ -63,7 +64,7 @@
                             <a href="#">
 
                                 <i class="fa-solid fa-magnifying-glass nav-icons" style="color: #d2d2d2;"></i>
-                                Cerca
+                                <span class="d-none">Cerca</span>
 
                             </a>
 
@@ -74,7 +75,7 @@
                             <a href="#">
 
                                 <i class="fa-solid fa-lines-leaning nav-icons" style="color: #d2d2d2;"></i>
-                                La tua libreria
+                                <span class="d-none">La tua libreria</span>
 
                             </a>
                             
@@ -85,7 +86,7 @@
                 </section>
 
                 <!-- playlist -->
-                <section id="playlist">
+                <section id="playlist" class="d-none">
 
                     <!-- main title -->
                     <h2>PLAYLIST</h2>
@@ -116,7 +117,7 @@
 
                     <div id="download">
                         <i class="fa-regular fa-circle-down" style="color: #d2d2d2;"></i>
-                        Installa app
+                        <span class="d-none">Installa app</span>
                     </div>
 
                     <div id="user">
@@ -126,7 +127,7 @@
                         </div>
 
                         <!-- name user -->
-                        <strong>Jhon Doe</strong>
+                        <strong class="d-none">Jhon Doe</strong>
 
                     </div>
 
@@ -140,7 +141,25 @@
         </div>
 
         <!-- footer -->
-        <footer></footer>
+        <footer>
+
+            <div class="row between">
+
+                <section class="col-2">
+
+                </section>
+                
+                <section class="col-6">
+
+                </section>
+
+                <section class="col-2">
+
+                </section>
+
+            </div>
+            
+        </footer>
 
     </div>
 
