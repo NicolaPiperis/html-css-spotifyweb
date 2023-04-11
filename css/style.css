@@ -15,7 +15,7 @@ body{
     height: 100%;
     width: 300px;
     background-color: #000000;
-    position: relative;
+    overflow: auto;
 }
 
 main{
@@ -46,7 +46,7 @@ footer{
         font-size: 15px;
     }
 
-    #main-nav li{
+    .padding-main-nav-list{
         padding: 10px 0 10px 30px;
     }
 
@@ -58,7 +58,7 @@ footer{
     #highlighted-home{
         border-left: 5px solid #adff2f;
         border-radius: 2px;
-        padding-left: 25px;
+        padding: 10px 0 10px 25px;
     }
 
     .nav-icons{
@@ -96,6 +96,8 @@ footer{
         list-style: none;
         color: #d2d2d2;
         font-size: 15px;
+        height: 165px;
+        overflow: auto;
     }
 
     #playlist li{
@@ -152,8 +154,7 @@ footer{
     }
 
     #nav-footer{
-        position: absolute;
-        bottom: 8px;
+        margin-top: 200px;
         width: 100%;
     }
 
