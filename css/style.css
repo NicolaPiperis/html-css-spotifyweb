@@ -1,5 +1,9 @@
 /* GENERAL RULES */
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #upper{
     display: flex;
     width: 100%;
@@ -11,6 +15,7 @@
     height: 100%;
     width: 300px;
     background-color: #000000;
+    position: relative;
 }
 
 main{
@@ -28,10 +33,130 @@ footer{
 /*  UPPER */
     /* NAV#SIDE */
 
+    /* LOGO */
     #logo{
         width: 70%;
         padding: 30px 30px;
     }
+
+    /*  MAIN NAV */
+    #main-nav ul{
+        list-style: none;
+        color: #d2d2d2;
+        font-size: 15px;
+    }
+
+    #main-nav li{
+        padding: 10px 0 10px 30px;
+    }
+
+    #main-nav a{
+        text-decoration: none;
+        color: #d2d2d2;
+    }
+
+    #highlighted-home{
+        border-left: 5px solid #adff2f;
+        border-radius: 2px;
+        padding-left: 25px;
+    }
+
+    .nav-icons{
+        font-size: 25px;
+        width: 40px;
+    }
+
+    /* PLAYLIST */
+    #playlist h2{
+        color: white;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+
+    #playlist h3{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #d2d2d2;
+        font-size: 16px;
+        padding:15px 0 15px 30px;
+    }
+
+    #plus-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d2d2d2;
+        height: 40px;
+        width: 40px;
+    }
+
+    #playlist ul{
+        list-style: none;
+        color: #d2d2d2;
+        font-size: 15px;
+    }
+
+    #playlist li{
+        padding-bottom: 15px;
+        padding-left: 30px;
+    }
+
+    .fa-plus{
+        font-size: 25px;
+    }
+
+    /* NAV-FOOTER */
+    #nav-footer #download {
+        color: #d2d2d2;
+        font-size: 14px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #d2d2d2;
+        border-radius: 1px;
+    }
+
+    .fa-circle-down{
+        width: 30px;
+    }
+
+    #user{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+
+    #user strong{
+        color: white;
+        font-size: 15px;
+    }
+
+    #image-user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: #848484;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+
+    #image-user img{
+        width: 15px;
+    }
+
+    #nav-footer{
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+    }
+
 
 
 
