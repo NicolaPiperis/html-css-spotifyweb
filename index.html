@@ -89,18 +89,18 @@
                 <section id="playlist" class="d-none">
 
                     <!-- main title -->
-                    <h2>PLAYLIST</h2>
+                    <h2 class="pointer">PLAYLIST</h2>
 
                     <!-- MAKE A PLAYLIST -->
-                    <h3>
-                        <div id="plus-container">
+                    <h3 class="pointer">
+                        <div id="plus-container" class="pointer">
                             <i class="fa-solid fa-plus" style="color: #000000;"></i>
                         </div>
                         Crea Playlist
                     </h3>
 
                     <!-- PLAYLIST LIST -->
-                    <ul>
+                    <ul class="pointer">
                         <li>Nome playlist</li>
                         <li>Nome playlist</li>
                         <li>Nome playlist</li>
@@ -115,12 +115,12 @@
                 <!-- nav-footer -->
                 <section id="nav-footer">
 
-                    <div id="download">
+                    <div id="download" class="pointer">
                         <i class="fa-regular fa-circle-down" style="color: #d2d2d2;"></i>
                         <span class="d-none">Installa app</span>
                     </div>
 
-                    <div id="user">
+                    <div id="user" class="pointer">
                         <!-- image+background -->
                         <div id="image-user">
                             <img src="img/profile.svg" alt="user image">
@@ -145,20 +145,20 @@
             
             <section id="info-song" class="row middle">
 
-                <div id="image-info">
+                <div id="image-info" class="pointer">
                     
                     <img src="img/sinister.jpeg" alt="sinister album image">
 
                 </div>
 
-                <div id="name-info">
+                <div id="name-info" class="pointer">
 
                     <strong>Sinister</strong>
                     <div>Brano nome</div>
 
                 </div>
 
-                <div id="favorite-save">
+                <div id="favorite-save" class="pointer">
 
                     <i class="fa-regular fa-heart" style="color: #c0c0c0;"></i>
                     <i class="fa-regular fa-folder" style="color: #c0c0c0;"></i>
@@ -169,7 +169,7 @@
             <section id="player">
 
                 <!-- tools player -->
-                <div id="player-tool" class="row middle center">
+                <div id="player-tool" class="row middle center pointer">
 
                     <i class="fa-solid fa-shuffle player-icon" style="color: #ffffff;"></i>
                     <i class="fa-regular fa-square-caret-left player-icon" style="color: #ffffff;"></i>
@@ -180,11 +180,13 @@
                 </div>
 
                 <!-- state song -->
-                <div id="state-song" class="row between middle">
+                <div id="state-song" class="row between middle ">
 
                     <strong>0.25</strong>
 
-                    <div></div>
+                    <span id="state-song-bar" class="pointer">
+                        <span id="highlighted-bar" class="pointer"></span>
+                    </span>
 
                     <strong>4.35</strong>
 
@@ -192,7 +194,17 @@
 
             </section>
 
-            <section id="setting"></section>               
+            <section id="setting" class="row central middle">
+
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-desktop" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-volume-low" style="color: #ffffff;"></i>
+
+                <span id="state-volume-bar" class="pointer">
+                    <span id="highlighted-bar" class="pointer"></span>
+                </span>
+
+            </section>               
             
         </footer>
 

@@ -32,6 +32,9 @@ footer{
     background-color: #282828;
 }
 
+.pointer{
+    cursor: pointer;
+}
 /*  UPPER */
     /* NAV#SIDE */
 
@@ -167,6 +170,11 @@ footer{
     }
 
     /* FOOTER */
+
+    footer section{
+        height: 100px;
+    }
+    
     #info-song{
         width: 20%;
     }
@@ -214,13 +222,17 @@ footer{
     }
     
     .player-icon{
-        padding-right: 40px;
+        
         font-size: 20px;
     }
 
     #play{
         font-size: 25px;
-        padding-right: 40px;
+       
+    } 
+
+    #player-tool {
+        gap: 20px;
     }
 
     #state-song strong{
@@ -228,13 +240,39 @@ footer{
         font-size: 12px;
     }
 
-    #state-song div{
+    #state-song-bar{
         width: 75%;
         background-color: #5a5a5a;
         height: 8px;
         border-radius: 5px;
+        display: inline-block;
+        position: relative;
     }
 
+    #highlighted-bar{
+        width: 20%;
+        background-color: white;
+        height: 8px;
+        border-radius: 5px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    } 
+
+    /* SETTING */
+    #setting{
+        gap: 20px;
+    }
+
+    #state-volume-bar{
+        width: 60%;
+        background-color: #5a5a5a;
+        height: 8px;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+    }
 
 
 
@@ -251,6 +289,5 @@ footer{
 /* DEBUG RULES */
 
 footer section{
-    background-color: greenyellow;
     height: 100px;
 }
