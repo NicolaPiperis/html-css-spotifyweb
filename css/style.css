@@ -302,6 +302,7 @@ footer{
         color: #76787d;
         gap: 30px;
         font-size: 14px;
+        flex-wrap: wrap;
     }
 
     #categories div{
@@ -317,7 +318,6 @@ footer{
     #highlighted-categories-flex{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
