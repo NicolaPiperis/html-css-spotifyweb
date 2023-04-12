@@ -36,4 +36,12 @@
     #main-nav{
         flex-grow: 1;
     }
+
+    /* FOOTER */
+    /* INFO SONG */
+
+    #image-info img{
+        transition: all 1s ease-in-out;
+        scale: 0.7;
+    }
 }

@@ -167,11 +167,73 @@ footer{
     }
 
     /* FOOTER */
+    #info-song{
+        width: 20%;
+    }
+
+    #player{
+        width: 40%;
+    }
+
+    #setting{
+        width: 20%;
+    }
+
+    /* INFO SONG */
+    #image-info img{
+        max-width: 100%;
+    }
+
+    #image-info{
+        width: 60px;
+        margin: 0 10px 0 10px;
+    }
+
+    #name-info{
+        flex-grow: 1;
+    }
+
+    #name-info strong{
+        color: white;
+        font-size: 15px;
+    }
+
+    #name-info div {
+        color:#848484 ;
+        font-size: 12px;
+    }
+
+    #favorite-save i{
+        width: 35px;
+    }
+
+    /* PLAYER */
     
+    #player div {
+        height: 50px;
+    }
+    
+    .player-icon{
+        padding-right: 40px;
+        font-size: 20px;
+    }
 
+    #play{
+        font-size: 25px;
+        padding-right: 40px;
+    }
 
+    #state-song strong{
+        color: white;
+        font-size: 12px;
+    }
 
-
+    #state-song div{
+        width: 75%;
+        background-color: #5a5a5a;
+        height: 8px;
+        border-radius: 5px;
+    }
 
 
 
@@ -188,7 +250,7 @@ footer{
 
 /* DEBUG RULES */
 
-footer .row section{
+footer section{
     background-color: greenyellow;
     height: 100px;
 }
