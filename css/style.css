@@ -328,7 +328,7 @@ footer{
     }
 
     .card{
-        width: calc(90% / 6);
+        width: calc(100% / 6);
     }
 
     .card img{
@@ -363,12 +363,16 @@ footer{
     }
    
     .gap{
-        gap: 30px;
+        gap: 10px;
     }
 
     .circle-image{
         border-radius: 50%;
         object-fit: cover;
+    }
+
+    .wrap{
+        flex-wrap: wrap;
     }
 
 /* DEBUG RULES */
