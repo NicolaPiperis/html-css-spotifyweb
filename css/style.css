@@ -1,7 +1,8 @@
 /* GENERAL RULES */
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     line-height: 180%;
 }
 
@@ -280,7 +281,7 @@ footer{
 
     /* FIXED BLOCK */
     .transparent{
-        width: 100%;
+        width: calc(100% - 300px);
         height: 120px;
         background-color: rgba(0, 0, 0, 0.5);
         position: fixed;
@@ -326,11 +327,11 @@ footer{
         margin: 25px 20px 25px 20px;
     }
 
-    .card-recent{
+    .card{
         width: calc(90% / 6);
     }
 
-    .card-recent img{
+    .card img{
         max-width: 100%;
     }
 
@@ -356,8 +357,19 @@ footer{
         font-size: 12px;
     }
 
+    .under-title{
+        color: #76787d;
+        margin-bottom:30px ;
+    }
+   
+    .gap{
+        gap: 30px;
+    }
 
-
+    .circle-image{
+        border-radius: 50%;
+        object-fit: cover;
+    }
 
 /* DEBUG RULES */
 
