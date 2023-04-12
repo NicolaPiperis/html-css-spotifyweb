@@ -44,6 +44,11 @@
         transition: all 1s ease-in-out;
         scale: 0.7;
     }
+
+    /* MAIN */
+    .transparent{
+        width: calc(100% - 100px);
+    }
 }
 
 
@@ -52,12 +57,12 @@
 
 @media screen and (max-width:991px){
     .card{
-        width: calc(100% / 4);
+        width: calc((100% / 4) - 20px );
     }
 }
 
 @media screen and (max-width:767px){
     .card{
-        width: calc(100% / 2);
+        width: calc((100% / 2) - 20px);
     }
 }
