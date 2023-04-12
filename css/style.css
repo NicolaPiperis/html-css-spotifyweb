@@ -25,6 +25,7 @@ main{
     width: calc(100% - 300px);
     background-color: #141922;
     position: relative;
+    overflow: auto;
 }
 
 footer{
@@ -321,8 +322,30 @@ footer{
         align-items: center;
     }
 
+    /* Recent played */
 
+    main section{
+        margin: 25px 20px 25px 20px;
+    }
 
+    .card-recent{
+        width: calc(90% / 6);
+    }
+
+    .card-recent img{
+        max-width: 100%;
+    }
+
+    #recent h2{
+        color: white;
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    .text-recentplayed{
+        text-align: center;
+        margin-top: 10px;
+    }
 
 
 
